@@ -1,0 +1,30 @@
+{
+  "name": "osilus-scraper",
+  "version": "1.0.0",
+  "description": "a basic scraper for my own things",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antaresrvish/osilus-scraper.git"
+  },
+  "keywords": [],
+  "author": "antaresrvish",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/antaresrvish/osilus-scraper/issues"
+  },
+  "homepage": "https://github.com/antaresrvish/osilus-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.1.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4"
+  }
+}
